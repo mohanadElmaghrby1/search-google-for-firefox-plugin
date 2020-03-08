@@ -50,7 +50,7 @@ function onCreated() {
   //  https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/onClicked
   browser.menus.onClicked.addListener((info, tab)=> {
     var creating = browser.tabs.create({
-      url:`https://www.google.com?q=${info.selectionText}`
+      url:`https://www.google.com/search?q=${info.selectionText}`
     });
     creating.then(onCreated, onError);
   });
