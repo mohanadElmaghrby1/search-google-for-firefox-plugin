@@ -16,8 +16,12 @@
   },
   
   "permissions": [
+    "contextMenus",
     "menus",
-    "search"
+    "search",
+    "activeTab",
+    "clipboardWrite",
+    "<all_urls>"
   ],
   
   "icons": {

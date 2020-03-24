@@ -1,11 +1,6 @@
 {
   "menuItemSearchInGoogle": {
-    "message": "search for '%s' in google",
+    "message": "search for '%s' in MDA",
     "description": "Title of context menu item that opens a sidebar."
-  },
-
-  "menuItemSearchInMCP": {
-    "message": "Click me!",
-    "description": "Title of tools menu item."
   }
 }
