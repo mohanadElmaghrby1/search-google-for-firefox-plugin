@@ -19,10 +19,25 @@
     "contextMenus",
     "menus",
     "search",
+    "storage", 
     "activeTab",
     "clipboardWrite",
     "<all_urls>"
   ],
+
+  "content_scripts": [
+    {
+        "matches": [
+            "http://*/*", 
+            "https://*/*"
+        ],
+        "js": [
+          "jquery-3.3.1.min.js",
+          "content.js"
+        ],
+        "run_at" : "document_start"
+    }
+],
   
   "icons": {
     "16": "icons/page-16.png",
